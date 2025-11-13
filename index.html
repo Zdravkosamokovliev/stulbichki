@@ -3,32 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Стълбички</title>
+    <title>Вертикална България</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
-        <h1>Стълбички</h1>
+        <h1>Вертикална България</h1>
         
-        <!-- КОНТЕЙНЕР ЗА ПРОГРЕС ЛЕНТАТА И СТРЕЛКИТЕ -->
-        <div class="master-progress-wrapper card">
-            <!-- НОВО: СТРЕЛКА НАЛЯВО -->
-            <div id="scroll-left-btn" class="scroll-arrow left">&lt;</div>
-            
-            <div class="master-progress-container">
-                <div id="master-progress-bar" class="master-progress-bar-bg">
-                    <div id="master-progress-fill" class="master-progress-bar-fill"></div>
-                    <div id="master-checkpoints" class="master-checkpoints-container">
-                        <!-- Маркерите за чекпойнтите ще се генерират тук -->
-                    </div>
+        <div class="master-progress-container card">
+            <div id="master-progress-bar" class="master-progress-bar-bg">
+                <div id="master-progress-fill" class="master-progress-bar-fill"></div>
+                <div id="master-checkpoints" class="master-checkpoints-container">
+                    <!-- Маркерите за чекпойнтите ще се генерират тук от JavaScript -->
                 </div>
             </div>
-
-            <!-- НОВО: СТРЕЛКА НАДЯСНО -->
-            <div id="scroll-right-btn" class="scroll-arrow right">&gt;</div>
         </div>
-
 
         <div id="dashboard" class="card">
             <h2>Вашият напредък</h2>
@@ -51,7 +41,7 @@
         <div id="roadmap" class="card">
             <h2>Пътна карта</h2>
             <ul id="checkpoint-list">
-                <!-- Списъкът ще се генерира тук -->
+                <!-- Списъкът ще се генерира тук от JavaScript -->
             </ul>
         </div>
     </div>
